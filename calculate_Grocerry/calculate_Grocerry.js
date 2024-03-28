@@ -8,6 +8,6 @@ function calculateAmount() {
     item3 = parseFloat(document.getElementById('item3').value);
 
     let total = item1 + item2 + item3;
-    document.getElementById('result').innerText = `The area of the rectangle is: ${total}`;
+    document.getElementById('result').innerText = `The amount is: ${total}`;
    }
 
